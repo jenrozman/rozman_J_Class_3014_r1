@@ -1,0 +1,70 @@
+body {
+	background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  padding: 5px 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: 90px;
+}
+.user{
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  border-radius: 7px;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png);
+  margin-top: 30px;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.user::placeholder{color:white;  font-family: 'Quicksand', sans-serif; text-align: center;}
+.pw{
+border: 3px solid rgba(255, 255, 255, 0.9);
+border-radius: 7px;
+background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png);
+color: white;
+font-size: 30px;
+text-align: center;
+}
+.pw::placeholder{color:white;  font-family: 'Quicksand', sans-serif; text-align: center;}
+.form{
+  background: rgba(255, 255, 255, 0.05);
+  border: 3px solid  rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10%;
+  padding: 5px;
+}
+input{
+  margin: auto;
+  width: 50%;
+  display: block;
+  padding-top: 5px;
+}
+.sub{
+  border-radius: 5px;
+  border: 3px solid  rgba(255, 255, 255, 0.5);
+  background:  rgba(255, 255, 255, 1);
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  padding: 2px;
+  width: 19%;
+  font-size: 20px;
+}
+.sub:hover{
+   background: rgba(255, 255, 255, 0.1);
+   color: white;
+}
+/*After Sign in*/
+.slide{
+	animation-name: slide;
+	animation-duration: 1.5s;
+	animation-timing-function: ease-in-out;
+  width: 90%;
+  font-size: 95px;
+}
+@keyframes slide {
+	0% {transform: translateX(-100%);}
+	100% {transform: translateX(0%);}
+}
